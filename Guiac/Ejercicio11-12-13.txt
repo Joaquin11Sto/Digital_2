@@ -1,0 +1,11 @@
+Ejercicio11:
+El struct guarda los miembros de la memoria uno tras otro. el tamaño final del struct es la suma de todos lo miembros.
+EL unión usa el mismo espacio de memoria para todos los miembro, solamente guarda un valor del miembro a la vez. El tamaño
+final es la suma del miembro mas grande.
+
+Ejercicio12:
+La dirección de memoria de b seria la misma, ya que por lo dicho en el punto anterior, todos los miembros comparten el mismo
+espacio de memoria y comienzan en la misma dirección.
+
+Ejercicio13: 
+El tamaño del unión es de 4 byte, al tener una variable declarada como entero y por definición el tamaño de la unión es la suma del miembro mayor, correspondería a ese valor
